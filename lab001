@@ -11,7 +11,46 @@
 Проверьте и сопоставьте представления. 
 ##Часть 1
 ###Соединим сетевые устройства
-![]
-(https://github.com/igorvrn/otus/blob/main/lab001.png)
+![](https://github.com/igorvrn/otus/blob/main/lab001.png)
 ##Часть 2
 ###Сконфигурируем основные настройки для каждого маршрутизатора:
+![](https://github.com/igorvrn/otus/blob/main/lab002.png)
+##Часть 3
+###Выполним команду passive-interface для портов G0/0/1 на R1 и R3
+##Часть 4
+###Убедимся, что роутеры определяют другие как соседние
+![](https://github.com/igorvrn/otus/blob/main/lab003.png)
+##Часть 5
+###Выполним команду show ip route, что бы убедиться что все сети отображаются в таблице маршрутизации на всех маршрутизаторах:
+![](https://github.com/igorvrn/otus/blob/main/lab004.png)
+##Часть 6 
+###Настроим хост  и сервер PC-A, PC-C
+![](https://github.com/igorvrn/otus/blob/main/lab005.png)
+##Часть 7
+###Проверим работу OSFP
+###Выполним команду ping от R1 к R3. Убедимся что пинг проходит успешно:
+![](https://github.com/igorvrn/otus/blob/main/lab006.png)
+###Выполним команду ping от PC-A к PC-C. Пинг проходит.
+![](https://github.com/igorvrn/otus/blob/main/lab007.png)
+##Часть 1
+###Включим ААА на роутерах R1,R3 и зададим пароль.
+###Разрешим все команды из групп config, show, debug. Выведем для проверки список доступных команд.
+##2. Настройка административных ролей
+###Часть 1
+###Включим ААА на роутерах R1,R3 и зададим пароль.
+###Разрешим все команды из групп config, show, debug. Выведем для проверки список доступных команд.
+![](https://github.com/igorvrn/otus/blob/main/lab008.png)
+![](https://github.com/igorvrn/otus/blob/main/lab009.png)
+###Выведем для проверки список доступных команд из группы show.
+![](https://github.com/igorvrn/otus/blob/main/lab010.png)
+![](https://github.com/igorvrn/otus/blob/main/lab011.png)
+##Часть 2
+###Создадим полномочия для admin2 из группы show и просмотрим их.
+![](https://github.com/igorvrn/otus/blob/main/lab012.png)
+##Часть 3
+###Создадим полномочия для учетной записи tech с доступом к группе команд show.
+###Проверим доступные команды группы show для учетной записи tech.
+![](https://github.com/igorvrn/otus/blob/main/lab013.png)
+###Командa show ip interface brief доступна для выполнения:
+![](https://github.com/igorvrn/otus/blob/main/lab014.png)
+Show ip route недоступна для выполнения.
